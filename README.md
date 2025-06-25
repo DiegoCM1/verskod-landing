@@ -1,93 +1,67 @@
-# Free React / Next.js landing page template
+![Verskod Logo](public/images/logo.jpg)
 
-![Open React / Next.js template preview](https://github.com/user-attachments/assets/522a5e46-2a0e-48ca-80eb-87c7fa58f3ea)
+## 📖 ¿Quiénes somos?
 
-**Open** is a **free React / Next.js landing page template built with Tailwind CSS** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
+**Verskod** es una empresa especializada en **desarrollo de software** y **capacitación personalizada de IA** para organizaciones que buscan optimizar procesos, empoderar a sus equipos y explorar tecnologías emergentes. Ofrecemos soluciones a medida que combinan ingeniería, diseño y experiencia en inteligencia artificial.
 
-**UPDATE 2025-02-04** Added Tailwind v4 support!
+---
 
-Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
+## 🎯 Misión
 
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
+- **Desarrollo de talento**  
+  Potenciar las habilidades profesionales y cognitivas de cada miembro de tu equipo.  
+- **Innovación aplicada**  
+  Implementar proyectos tecnológicos disruptivos basados en IA y otras tecnologías emergentes.  
+- **Productividad y bienestar**  
+  Mejorar la eficiencia y la calidad de vida de las personas mediante herramientas y metodologías inteligentes.
 
-_Version 1.0.0 built with the Cruip CSS is available [here](https://github.com/cruip/open-react-template/releases/tag/1.0.0)._
-_Version 2.0.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/open-react-template/releases/tag/2.0.3)._
-_Version 3.3.0 (before redesign) built with Tailwind CSS and Next.js is available [here](https://github.com/cruip/open-react-template/releases/tag/3.3.0)._
+---
 
-## Live demo
+## 🚀 Qué hacemos
 
-Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
+1. **Soluciones a medida**  
+   Creamos aplicaciones web y móviles desde cero, adaptadas a tus necesidades de negocio.  
+2. **Integración de IA**  
+   Desarrollamos y entrenamos modelos de lenguaje y visión para automatizar tareas y ofrecer experiencias conversacionales.  
+3. **Capacitación corporativa**  
+   Diseñamos programas de entrenamiento interactivo para que tu equipo adopte y saque provecho de la IA.  
+4. **Consultoría tecnológica**  
+   Asesoramos en arquitectura, buenas prácticas y escalabilidad de tus sistemas.
 
-## Open PRO
+---
 
-[![Open Pro](https://github.com/user-attachments/assets/2062c728-95f1-4d59-aa2d-d63556f625d5)](https://cruip.com/)
+## 🛠️ Tecnologías principales
 
-## Design files
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS  
+- **Backend & APIs**: Node.js, Express, PostgreSQL, MongoDB  
+- **IA & Machine Learning**: Python, PyTorch, TensorFlow, OpenAI GPT  
+- **DevOps & Deploy**: Vercel, Docker, GitHub Actions  
+- **Móvil & PWA**: React Native, Progressive Web Apps (PWA)  
 
-If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/401KSUS
+---
 
-## Usage
+## 📂 Primer proyecto: Alva
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Nuestro **primer lanzamiento** es **Alva**, un asistente de IA para acompañar tus mañanas y noches con mensajes motivacionales, playlists personalizadas y reflexiones diarias. Puedes conocer su landing aquí:
 
-### Getting Started
+▶️ https://verskod-landing.vercel.app/
 
-First, run the development server:
+---
+
+## ⚙️ Instalación y desarrollo local
+
+Clona este repositorio y arranca el entorno de desarrollo:
 
 ```bash
+git clone https://github.com/DiegoCM1/verskod-landing.git
+cd verskod-landing
+npm install
 npm run dev
-# or
-pnpm dev (recommended)
-# or
-yarn dev
+Abre tu navegador en http://localhost:3000.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Despliegue
+Este proyecto está configurado para deploy automático en Vercel. Cada push a la rama main genera una nueva versión en producción.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-### Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-### Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-### Support notes
-
-This template has been developed with the App Router (`app`) and React Server Components. If you’re unfamiliar with these beta features, you can find more information about them on the Next.js beta documentation page. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
-
-For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
-
-## Credits
-
-- [Nucleo](https://nucleoapp.com/)
-
-## Terms and License
-
-- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Copyright 2024 [Cruip](https://cruip.com/).
-- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
-- Attribution is not required, although it is really appreciated.
-
-## About Us
-
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
-
-## Stay in the loop
-
-If you would like to know when we release new resources, you can follow [@pacovitiello](https://x.com/pacovitiello) and [@DavidePacilio](https://x.com/DavidePacilio) on X, or you can subscribe to our [newsletter](https://cruip.com/newsletter/).
+## 📄 Licencia
+Este repositorio es de uso interno de Verskod. Para más detalles sobre términos y condiciones, consulta el documento de políticas internas.
