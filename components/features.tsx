@@ -2,6 +2,11 @@ import Image from "next/image";
 import BlurredShapeGray from "@/public/images/blurred-shape-gray.svg";
 import BlurredShape from "@/public/images/blurred-shape.svg";
 import FeaturesImage from "@/public/images/features.png";
+import { PersonStanding } from "lucide-react";
+import { FolderKanban } from 'lucide-react';
+import { HeartPlus } from 'lucide-react';
+
+
 
 export default function Features() {
   return (
@@ -60,27 +65,20 @@ export default function Features() {
           {/* Items */}
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
             <article>
-              <svg
-                className="mb-3 fill-indigo-500"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-              >
-                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
-                <path
-                  fillOpacity=".48"
-                  d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
-                />
-              </svg>
+              <PersonStanding color="oklch(58.5% 0.233 277.117)" size={24} />
+
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Desarrollo Profesional y Cognitivo 
+                Desarrollo Profesional y Cognitivo
               </h3>
               <p className="text-indigo-200/65">
-                Potenciar el desarrollo profesional y cognitivo de cada miembro de tu equipo.
+                Potenciar el desarrollo profesional y cognitivo de cada miembro
+                de tu equipo.
               </p>
             </article>
             <article>
-              <svg
+              <FolderKanban color="oklch(58.5% 0.233 277.117)" size={24} />
+
+              {/* <svg
                 className="mb-3 fill-indigo-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
@@ -88,32 +86,24 @@ export default function Features() {
               >
                 <path fillOpacity=".48" d="M7 8V0H5v8h2Zm12 16v-4h-2v4h2Z" />
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
-              </svg>
+              </svg> */}
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Proyectos de Innovación Tecnológica
               </h3>
               <p className="text-indigo-200/65">
-                Aplicar el conocimiento dado a los equipos de trabajo con proyectos innovadores que utilicen tecnologías emergentes.
+                Aplicar el conocimiento dado a los equipos de trabajo con
+                proyectos innovadores que utilicen tecnologías emergentes.
               </p>
             </article>
             <article>
-              <svg
-                className="mb-3 fill-indigo-500"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-              >
-                <path d="M23.414 6 18 .586 16.586 2l3 3H7a6 6 0 0 0-6 6h2a4 4 0 0 1 4-4h12.586l-3 3L18 11.414 23.414 6Z" />
-                <path
-                  fillOpacity=".48"
-                  d="M13.01 12.508a2.5 2.5 0 0 0-3.502.482L1.797 23.16.203 21.952l7.71-10.17a4.5 4.5 0 1 1 7.172 5.437l-4.84 6.386-1.594-1.209 4.841-6.385a2.5 2.5 0 0 0-.482-3.503Z"
-                />
-              </svg>
+              <HeartPlus color="oklch(58.5% 0.233 277.117)" size={24}/>
+
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Productividad y Bienestar
               </h3>
               <p className="text-indigo-200/65">
-                Mejorar la productividad y la calidad de vida de las personas a través de nuestras iniciativas.
+                Mejorar la productividad y la calidad de vida de las personas a
+                través de nuestras iniciativas.
               </p>
             </article>
           </div>
