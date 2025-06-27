@@ -42,9 +42,9 @@
 
 ## 📂 Primer proyecto: Alva
 
-Nuestro **primer lanzamiento** es **Alva**, un asistente de IA para acompañar tus mañanas y noches con mensajes motivacionales, playlists personalizadas y reflexiones diarias. Puedes conocer su landing aquí:
+Nuestro **primer lanzamiento** es **Alva**, un asistente de IA para acompañar tus mañanas y noches con mensajes motivacionales, playlists personalizadas y reflexiones diarias. Puedes conocer su Alva aquí:
 
-▶️ https://verskod-landing.vercel.app/
+▶️ https://alvaassistant.vercel.app//
 
 ---
 

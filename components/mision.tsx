@@ -48,9 +48,11 @@ export default function Features() {
               Nuestra Misión
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Open AI reads and understands your files, and with nothing more
-              than a single line of feedback, so you can go further than the
-              speed of thought.
+              Transformar tu equipo combinando formación de
+              vanguardia y aplicaciones prácticas de tecnologías emergentes, para
+              que trabajen en proyectos disruptivos, alcancen niveles de
+              eficiencia superiores y disfruten de un equilibrio real entre
+              rendimiento y bienestar.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
