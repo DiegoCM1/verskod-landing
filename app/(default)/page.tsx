@@ -1,12 +1,12 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Verskod",
+  description: "Verskod - Desarrollo de software y capacitación personalizada de IA para tu empresa.",
 };
 
 import PageIllustration from "@/components/page-illustration";
 import Hero from "@/components/hero-home";
-import Workflows from "@/components/workflows";
-import Features from "@/components/mision";
+import Workflows from "@/components/servicios";
+import Features from "@/components/proposito";
 // import Testimonials from "@/components/testimonials";
 import Cta from "@/components/cta";
 
