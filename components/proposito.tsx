@@ -77,7 +77,7 @@ export default function Features() {
               <FolderKanban color="oklch(58.5% 0.233 277.117)" size={24} />
 
               {/* <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-button-primary"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}

@@ -12,6 +12,8 @@
   --font-inter: var(--font-inter), sans-serif;
   --font-nacelle: var(--font-nacelle), sans-serif;
 
+  --color-button-primary: rgb(95, 115, 176);
+
   --text-xs: 0.8125rem;
   --text-xs--line-height: 1.5384;
   --text-sm: 0.875rem;

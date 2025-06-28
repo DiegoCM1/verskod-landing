@@ -79,7 +79,7 @@ export default function SignUp() {
               </div>
             </div>
             <div className="mt-6 space-y-5">
-              <button className="btn w-full bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]">
+              <button className="btn w-full bg-linear-to-t from-indigo-600 to-button-primary bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]">
                 Register
               </button>
               <div className="flex items-center gap-3 text-center text-sm italic text-gray-600 before:h-px before:flex-1 before:bg-linear-to-r before:from-transparent before:via-gray-400/25 after:h-px after:flex-1 after:bg-linear-to-r after:from-transparent after:via-gray-400/25">
@@ -93,7 +93,7 @@ export default function SignUp() {
           {/* Bottom link */}
           <div className="mt-6 text-center text-sm text-indigo-200/65">
             Already have an account?{" "}
-            <Link className="font-medium text-indigo-500" href="/signin">
+            <Link className="font-medium text-button-primary" href="/signin">
               Sign in
             </Link>
           </div>
