@@ -4,10 +4,10 @@ export default function Header() {
   /* ──────────────────────────────────────────
      State & refs
   ────────────────────────────────────────── */
-  const [isOpen, setIsOpen] = useState(false);          //  menú móvil (no implementado aquí)
+  const [isOpen, setIsOpen] = useState(false); //  menú móvil (no implementado aquí)
   const [activeSection, setActiveSection] = useState(""); //  id de la sección visible
-  const navbarHeight = 64;                                //  alto fijo del navbar en px
-  const sectionMapRef = useRef([]);                       //  guardamos offsets entre renders
+  const navbarHeight = 64; //  alto fijo del navbar en px
+  const sectionMapRef = useRef([]); //  guardamos offsets entre renders
 
   /* ──────────────────────────────────────────
      1. Calcula offsets + IntersectionObserver
@@ -75,16 +75,16 @@ export default function Header() {
       top: target.offsetTop - navbarHeight, // compensamos el navbar
       behavior: "smooth",
     });
-    setActiveSection(id);  // marcamos activa inmediatamente
-    setIsOpen(false);      // cerrar menú móvil (si existiera)
+    setActiveSection(id); // marcamos activa inmediatamente
+    setIsOpen(false); // cerrar menú móvil (si existiera)
   };
 
   /* ──────────────────────────────────────────
      3. JSX
   ────────────────────────────────────────── */
   return (
-    <header className="z-30 w-full md:mt-5 flex sticky top-0 items-center justify-between gap-3 rounded-b-2xl bg-gray-950/80 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 after:backdrop-blur-xs">
-      <div className="mx-auto w-full">
+    <header className="z-30 w-full flex sticky top-0 items-center justify-between rounded-b-2xl bg-gray-950/80 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 after:backdrop-blur-xs">
+      <div className="w-full">
         {/* ——— Logo ——— */}
         <div className="justify-center text-center py-4 bg-gray-900/ border border-b-gray-800">
           {/* link normal; al ser / cambia de página, así que SIN manualScroll */}
@@ -107,10 +107,10 @@ export default function Header() {
               <a
                 href={`#${id}`}
                 onClick={(e) => manualScroll(e, id)}
-                className={`text-lg font-semibold hover:text-white ${
-                  activeSection === id
-                    ? "text-white"
-                    : "text-gray-300"
+                /*  Bloque que ocupa todo el ancho y alto,
+            flex para centrar el texto vertical y horizontalmente  */
+                className={`w-full h-full flex items-center justify-center text-lg font-semibold hover:text-white ${
+                  activeSection === id ? "text-white" : "text-gray-400"
                 }`}
               >
                 {label}
