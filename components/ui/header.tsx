@@ -105,7 +105,7 @@ export default function Header() {
     <header className="z-30 sticky top-0 flex w-full items-center justify-between rounded-b-2xl bg-gray-950/80 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 after:backdrop-blur-sm">
       <div className="w-full md:flex md:items-center md:justify-between md:px-4 lg:px-8">
         {/* ---------- Logo ---------- */}
-        <div className="flex justify-center py-4 border-b border-gray-800 md:border-0">
+        <div className="flex justify-center py-4 border-b border-gray-800 md:border-0 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]">
           <a
             href="/"
             className="text-2xl font-semibold text-gray-300 hover:text-white"
@@ -115,7 +115,7 @@ export default function Header() {
         </div>
 
         {/* ---------- Links ---------- */}
-        <nav className="flex items-center justify-between py-2">
+        <nav className="flex  items-center justify-between py-2">
           {[
             { id: "servicios", label: "Servicios" },
             { id: "proposito", label: "Propósito" },
