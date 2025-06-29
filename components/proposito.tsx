@@ -63,7 +63,7 @@ export default function Features() {
           {/* Items */}
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
             <article>
-              <PersonStanding color="oklch(58.5% 0.233 277.117)" size={24} />
+              <PersonStanding className="text-button-primary" size={24} />
 
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Desarrollo Profesional y Cognitivo
@@ -74,17 +74,7 @@ export default function Features() {
               </p>
             </article>
             <article>
-              <FolderKanban color="oklch(58.5% 0.233 277.117)" size={24} />
-
-              {/* <svg
-                className="mb-3 fill-button-primary"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-              >
-                <path fillOpacity=".48" d="M7 8V0H5v8h2Zm12 16v-4h-2v4h2Z" />
-                <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
-              </svg> */}
+              <FolderKanban className="text-button-primary" size={24} />
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Proyectos de Innovación Tecnológica
               </h3>
@@ -94,7 +84,7 @@ export default function Features() {
               </p>
             </article>
             <article>
-              <HeartPlus color="oklch(58.5% 0.233 277.117)" size={24}/>
+              <HeartPlus className="text-button-primary" size={24}/>
 
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Productividad y Bienestar

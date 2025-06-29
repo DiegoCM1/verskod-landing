@@ -1,9 +1,6 @@
-// import Logo from "./logo";
 import Image from "next/image";
 import FooterIllustration from "@/public/images/footer-illustration.svg";
-import { Instagram } from "lucide-react";
-import { Linkedin } from "lucide-react";
-import { Twitter } from "lucide-react";
+import { Instagram, Linkedin, Twitter, Facebook } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -29,7 +26,7 @@ export default function Footer() {
           {/* Social media links */}
           <div className="flex items-center justify-center mb-4 md:mb-6 md:gap-4">
             <a
-              href="https://www.instagram.com/openproapp/"
+              href="https://www.instagram.com/verskodoficial/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
@@ -37,7 +34,7 @@ export default function Footer() {
               <Instagram className="inline-block w-8 h-8" />
             </a>
             <a
-              href="https://www.linkedin.com/company/openproapp/"
+              href="https://www.instagram.com/verskodoficial/"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-4 text-gray-500 hover:text-gray-700 transition-colors duration-200"
@@ -45,12 +42,20 @@ export default function Footer() {
               <Linkedin className="inline-block w-8 h-8" />
             </a>
             <a
-              href="https://www.linkedin.com/company/openproapp/"
+              href="https://x.com/Verskod"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-4 text-gray-500 hover:text-gray-700 transition-colors duration-200"
             >
               <Twitter className="inline-block w-8 h-8" />
+            </a>
+             <a
+              href="https://www.facebook.com/profile.php?id=61561229710590"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-4 text-gray-500 hover:text-gray-700 transition-colors duration-200"
+            >
+              <Facebook className="inline-block w-8 h-8" />
             </a>
           </div>
           <div className="md:flex md:flex-row md:justify-between md:items-center md:w-3/5 md:mb-6">
