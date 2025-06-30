@@ -1,6 +1,7 @@
 import Image from "next/image";
 import FooterIllustration from "@/public/images/footer-illustration.svg";
-import { Instagram, Linkedin, Twitter, Facebook } from "lucide-react";
+import { Instagram, Linkedin, Facebook } from "lucide-react";
+import XIcon from "../icons/XIcon";
 
 export default function Footer() {
   return (
@@ -47,9 +48,9 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="ml-4 text-gray-500 hover:text-gray-700 transition-colors duration-200"
             >
-              <Twitter className="inline-block w-8 h-8" />
+              <XIcon className="inline-block w-8 h-8" />
             </a>
-             <a
+            <a
               href="https://www.facebook.com/profile.php?id=61561229710590"
               target="_blank"
               rel="noopener noreferrer"
