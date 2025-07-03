@@ -2,7 +2,6 @@ import diseñoDeInterfaces from "@/public/images/VERSKOD-DISEN╠âO-IMG-01.png"
 import asesoriaEmpresarial from "@/public/images/VERSKOD-CONSULTORI╠üA-IMG-01.png";
 import programador from "@/public/images/VERSKOD-DESARROLLO-IMG-02.png";
 
-
 // import ModalVideo from "@/components/modal-video";
 import Image from "next/image";
 
@@ -57,17 +56,6 @@ export default function HeroHome() {
             </div>
           </div>
 
-          {/* Video placeholder */}
-          {/* <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1104}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="videos//video.mp4"
-            videoWidth={1920}
-            videoHeight={1080}
-          /> */}
-
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 group/card relative h-full overflow-hidden rounded-2xl bg-gray-800 p-px before:pointer-events-none before:absolute before:-left-40 before:-top-40 before:z-10 before:h-80 before:w-80 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-button-primary/80 before:opacity-0 before:blur-3xl before:transition-opacity before:duration-500 after:pointer-events-none after:absolute after:-left-48 after:-top-48 after:z-30 after:h-64 after:w-64 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:rounded-full after:bg-button-primary after:opacity-0 after:blur-3xl after:transition-opacity after:duration-500 hover:after:opacity-20 group-hover:before:opacity-100">
             <Image
               className="mx-auto shadow-lg overflow-hidden rounded-l-2xl"
@@ -75,13 +63,13 @@ export default function HeroHome() {
               alt="Hero image"
             />
             <Image
-              className="mx-auto shadow-lg overflow-hidden hidden md:block"
-              src={programador}
+              className="mx-auto shadow-lg overflow-hidden rounded-r-2xl"
+              src={asesoriaEmpresarial}
               alt="Hero image"
             />
             <Image
-              className="mx-auto shadow-lg overflow-hidden rounded-r-2xl"
-              src={asesoriaEmpresarial}
+              className="mx-auto shadow-lg overflow-hidden hidden md:block"
+              src={programador}
               alt="Hero image"
             />
           </div>
