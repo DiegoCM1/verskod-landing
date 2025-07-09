@@ -1,6 +1,6 @@
-import diseñoDeInterfaces from "@/public/images/VERSKOD-DISEN╠âO-IMG-01.png";
-import asesoriaEmpresarial from "@/public/images/VERSKOD-CONSULTORI╠üA-IMG-01.png";
-import programador from "@/public/images/VERSKOD-DESARROLLO-IMG-02.png";
+import diseñoDeInterfaces from "@/public/images/VERSKOD-DISEN╠âO-IMG-01.webp";
+import asesoriaEmpresarial from "@/public/images/VERSKOD-CONSULTORI╠üA-IMG-01.webp";
+import programador from "@/public/images/VERSKOD-DESARROLLO-IMG-02.webp";
 
 // import ModalVideo from "@/components/modal-video";
 import Image from "next/image";
