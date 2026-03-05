@@ -50,7 +50,7 @@ export default function ModalVideo({
         onClick={() => {
           setModalOpen(true);
         }}
-        aria-label="Watch the video"
+        aria-label="Ver el video"
         data-aos="fade-up"
         data-aos-delay={200}
       >
@@ -94,7 +94,7 @@ export default function ModalVideo({
               </defs>
             </svg>
             <span className="text-sm font-medium leading-tight text-gray-300">
-              Watch Demo
+              Ver Demo
               <span className="text-gray-600"> - </span>
               3:47
             </span>
@@ -126,7 +126,7 @@ export default function ModalVideo({
                 controls
               >
                 <source src={video} type="video/mp4" />
-                Your browser does not support the video tag.
+                Tu navegador no soporta la etiqueta de video.
               </video>
             </DialogPanel>
           </div>

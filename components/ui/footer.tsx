@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col items-center justify-between pt-16 pb-8">
           <h3 className="mb-4 font-nacelle text-[1rem] font-semibold text-gray-200 md:mb-6">
-            Siguenos en nuestras redes:
+            Síguenos en nuestras redes:
           </h3>{" "}
           {/* Social media links */}
           <div className="flex items-center justify-center mb-4 md:mb-6 md:gap-4">
@@ -35,7 +35,7 @@ export default function Footer() {
               <Instagram className="inline-block w-8 h-8" />
             </a>
             <a
-              href="https://www.instagram.com/verskodoficial/"
+              href="https://www.linkedin.com/company/verskod/"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-4 text-gray-500 hover:text-gray-700 transition-colors duration-200"
