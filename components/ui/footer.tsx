@@ -59,11 +59,19 @@ export default function Footer() {
               <Facebook className="inline-block w-8 h-8" />
             </a>
           </div>
-          <div className="md:flex md:flex-row md:justify-between md:items-center md:w-3/5 md:mb-6">
+          <div className="flex flex-col items-center md:flex-row md:justify-center md:items-center md:gap-12 md:mb-6">
             <p className="text-indigo-200/65 mb-2">
-              311 521 6216 / 301 3190819 / 601 765 3016
+              🇲🇽 México: +52 1 715 145 9328
             </p>
             <p className="text-indigo-200/65 mb-2">
+              🇨🇴 Colombia: +57 312 4892318
+            </p>
+            <p className="text-indigo-200/65 mb-2">
+              🇦🇷 Argentina: +54 9 3512 40-9865
+            </p>
+          </div>
+          <div className="mb-4">
+            <p className="text-indigo-200/65">
               contacto@verskod.com / www.verskod.com
             </p>
           </div>
