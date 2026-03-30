@@ -25,7 +25,7 @@ export default function Cta() {
             >
               ¡Dile hola al futuro con Verskod!{" "}
             </h2>
-            <p className="text-lg text-indigo-200/65 pb-8">
+            <p className="text-lg text-indigo-200/80 pb-8">
               Escríbenos y construyamos mejores caminos.
             </p>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">

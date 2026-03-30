@@ -23,14 +23,14 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between pt-16 pb-8">
           <h3 className="mb-4 font-nacelle text-[1rem] font-semibold text-gray-200 md:mb-6">
             Síguenos en nuestras redes:
-          </h3>{" "}
+          </h3>
           {/* Social media links */}
-          <div className="flex items-center justify-center mb-4 md:mb-6 md:gap-4">
+          <div className="flex items-center justify-center mb-4 md:mb-6 gap-4">
             <a
               href="https://www.instagram.com/verskodoficial/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
+              className="text-gray-400 hover:text-white transition-colors duration-200"
             >
               <Instagram className="inline-block w-8 h-8" />
             </a>
@@ -38,7 +38,7 @@ export default function Footer() {
               href="https://www.linkedin.com/company/verskod/"
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-4 text-gray-500 hover:text-gray-700 transition-colors duration-200"
+              className="text-gray-400 hover:text-white transition-colors duration-200"
             >
               <Linkedin className="inline-block w-8 h-8" />
             </a>
@@ -46,7 +46,7 @@ export default function Footer() {
               href="https://x.com/Verskod"
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-4 text-gray-500 hover:text-gray-700 transition-colors duration-200"
+              className="text-gray-400 hover:text-white transition-colors duration-200"
             >
               <XIcon className="inline-block w-8 h-8" />
             </a>
@@ -54,26 +54,29 @@ export default function Footer() {
               href="https://www.facebook.com/profile.php?id=61561229710590"
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-4 text-gray-500 hover:text-gray-700 transition-colors duration-200"
+              className="text-gray-400 hover:text-white transition-colors duration-200"
             >
               <Facebook className="inline-block w-8 h-8" />
             </a>
           </div>
           <div className="flex flex-col items-center md:flex-row md:justify-center md:items-center md:gap-12 md:mb-6">
-            <p className="text-indigo-200/65 mb-2">
-              🇲🇽 México: +52 1 715 145 9328
-            </p>
-            <p className="text-indigo-200/65 mb-2">
-              🇨🇴 Colombia: +57 312 4892318
-            </p>
-            <p className="text-indigo-200/65 mb-2">
-              🇦🇷 Argentina: +54 9 3512 40-9865
-            </p>
+            <a href="tel:+5217151459328" className="text-indigo-200/80 hover:text-white transition-colors mb-2">
+              Mexico: +52 1 715 145 9328
+            </a>
+            <a href="tel:+573124892318" className="text-indigo-200/80 hover:text-white transition-colors mb-2">
+              Colombia: +57 312 4892318
+            </a>
+            <a href="tel:+5493512409865" className="text-indigo-200/80 hover:text-white transition-colors mb-2">
+              Argentina: +54 9 3512 40-9865
+            </a>
           </div>
           <div className="mb-4">
-            <p className="text-indigo-200/65">
-              contacto@verskod.com / www.verskod.com
-            </p>
+            <a
+              href="mailto:contacto@verskod.com"
+              className="text-indigo-200/80 hover:text-white transition-colors"
+            >
+              contacto@verskod.com
+            </a>
           </div>
           <div>
             <p className="text-gray-500 text-sm mt-4 md:mt-0">

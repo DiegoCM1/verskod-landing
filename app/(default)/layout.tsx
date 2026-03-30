@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 import Footer from "@/components/ui/footer";
 import Header from "@/components/ui/header";
-
+import WhatsAppButton from "@/components/whatsapp-button";
 
 export default function DefaultLayout({
   children,
@@ -17,7 +17,6 @@ export default function DefaultLayout({
   useEffect(() => {
     AOS.init({
       once: true,
-      disable: "phone",
       duration: 600,
       easing: "ease-out-sine",
     });
@@ -31,7 +30,7 @@ export default function DefaultLayout({
       <main className="relative flex grow flex-col">{children}</main>
 
       <Footer />
-      
+      <WhatsAppButton />
     </>
   );
 }

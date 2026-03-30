@@ -14,7 +14,7 @@ export default function Workflows() {
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
               Construye tu presencia digital y potencia tu equipo de trabajo con IA.
             </h2>
-            <p className="text-lg text-indigo-200/65">
+            <p className="text-lg text-indigo-200/80">
               Te acompañamos de cero a cien en el desarrollo de software de manera personalizada entendiendo tu modelo de negocio y escalabilidad.
             </p>
           </div>
@@ -49,7 +49,7 @@ export default function Workflows() {
                   src={WorflowImg01}
                   width={350}
                   height={288}
-                  alt="Workflow 01"
+                  alt="Desarrollo de software"
                 />
                 {/* Content */}
                 <div className="p-6">
@@ -60,7 +60,7 @@ export default function Workflows() {
                       </span>
                     </span>
                   </div>
-                  <p className="text-indigo-200/65">
+                  <p className="text-indigo-200/80">
                     Diseñamos y desarrollamos soluciones digitales personalizadas
                     para optimizar la estructura y procesos internos de tu empresa.
                   </p>
@@ -96,7 +96,7 @@ export default function Workflows() {
                   src={WorflowImg02}
                   width={350}
                   height={288}
-                  alt="Workflow 02"
+                  alt="Capacitación en IA"
                 />
                 {/* Content */}
                 <div className="p-6">
@@ -107,7 +107,7 @@ export default function Workflows() {
                       </span>
                     </span>
                   </div>
-                  <p className="text-indigo-200/65">
+                  <p className="text-indigo-200/80">
                     Formación práctica y teórica para tu equipo en tecnologías
                     emergentes, desarrollando competencias internas que maximizan
                     la innovación.
@@ -144,7 +144,7 @@ export default function Workflows() {
                   src={WorflowImg03}
                   width={350}
                   height={288}
-                  alt="Workflow 03"
+                  alt="Transformación digital"
                 />
                 {/* Content */}
                 <div className="p-6">
@@ -155,7 +155,7 @@ export default function Workflows() {
                       </span>
                     </span>
                   </div>
-                  <p className="text-indigo-200/65">
+                  <p className="text-indigo-200/80">
                     Aceleramos la transformación digital de tu empresa con
                     soluciones a medida, garantizando una adopción efectiva en tu
                     equipo de trabajo.

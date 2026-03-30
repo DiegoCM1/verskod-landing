@@ -22,7 +22,7 @@ export default function HeroHome() {
             </h1>
             <div className="mx-auto max-w-2xl">
               <p
-                className="mb-8 text-xl text-indigo-200/65"
+                className="mb-8 text-xl text-indigo-200/80"
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
