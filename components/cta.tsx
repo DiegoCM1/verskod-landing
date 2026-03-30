@@ -32,7 +32,7 @@ export default function Cta() {
               <div data-aos="fade-up" data-aos-delay={400}>
                 <a
                   className="btn group mb-4 w-full bg-linear-to-t from-button-primary/40 to-button-primary bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                  href="mailto:verskod.redes@gmail.com?subject=%C2%A1Hola%20Verskod!&body=Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20ustedes..."
+                  href="mailto:contacto@verskod.com?subject=%C2%A1Hola%20Verskod!&body=Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20ustedes..."
                 >
                   <span className="relative inline-flex items-center">
                     Escríbenos!

@@ -34,7 +34,7 @@ export default function HeroHome() {
                 <div data-aos="fade-up" data-aos-delay={400}>
                   <a
                     className="btn group mb-4 w-full bg-linear-to-t from-button-primary/40 to-button-primary bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
+                    href="#cta"
                   >
                     <span className="relative inline-flex items-center">
                       Contáctanos
@@ -47,7 +47,7 @@ export default function HeroHome() {
                 <div data-aos="fade-up" data-aos-delay={600}>
                   <a
                     className="btn relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] sm:ml-4 sm:w-auto"
-                    href="#0"
+                    href="#cta"
                   >
                     Solicitar demostración
                   </a>
@@ -60,17 +60,17 @@ export default function HeroHome() {
             <Image
               className="mx-auto shadow-lg overflow-hidden rounded-l-2xl"
               src={diseñoDeInterfaces}
-              alt="Hero image"
+              alt="Diseño de interfaces"
             />
             <Image
               className="mx-auto shadow-lg overflow-hidden rounded-r-2xl"
               src={asesoriaEmpresarial}
-              alt="Hero image"
+              alt="Asesoría empresarial"
             />
             <Image
               className="mx-auto shadow-lg overflow-hidden hidden md:block"
               src={programador}
-              alt="Hero image"
+              alt="Desarrollo de software"
             />
           </div>
         </div>
